@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+nav ul {
+    list-style: none;
+    background-color: #4a4a4f;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    font-size: 1.2em;
+    line-height: 40px;
+    height: 40px;
+    display: inline-block;
+    margin: 2.5%
+}
+
+nav a{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 0 .7em;
+}
+
+nav a:hover {
+    background-color: #fff;
+    color:#4a4a4f;
+}
+
+.card {
+    float: left;
+    width: 20%;
+    height: 20%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    border: 1px dashed rgb(129, 129, 129);
+}
+
+.card a {
+    text-align: center;
+    display: block;
+}
+
+img {
+
+    max-height: 10em;
+    text-align: center;
+    margin: 1em auto 0;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+@media screen and (max-width:900px){
+    img {
+
+        max-height: 5em;
+    }
+
+
+}
+
+@media screen and (max-width:500px){
+    img {
+
+        max-height: 4em;
+    }
+    .card {
+
+        width: 40%;
+        margin-left: 5%;
+
+    }
+}
+
+@media screen and (max-width:300px){
+
+    .card {
+
+        width: 90%;
+        margin-left: 5%;
+
+    }
+}
